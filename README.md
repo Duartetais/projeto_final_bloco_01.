@@ -53,23 +53,6 @@ src/
 | **Repository Pattern** | `ProdutoController implements ProdutoRepository` — desacoplamento |
 | **Polimorfismo** | Método `visualizar()` sobrescrito na classe filha |
 
-## 🚀 Como Executar
-
-```bash
-# Clone o repositório
-git clone https://github.com/Duartetais/projeto_final_bloco_01.git
-
-# Entre na pasta
-cd projeto_final_bloco_01
-
-# Instale as dependências
-npm install
-
-# Execute (se tiver ts-node configurado)
-npm run dev
-# ou compile e rode:
-tsc && node build/index.js
-
 💡 Destaques Técnicos
 🎨 Repository Pattern
 Interface define o contrato, Controller implementa a lógica de negócio desacoplada do armazenamento.
