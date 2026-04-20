@@ -53,19 +53,41 @@ src/
 | **Repository Pattern** | `ProdutoController implements ProdutoRepository` — desacoplamento |
 | **Polimorfismo** | Método `visualizar()` sobrescrito na classe filha |
 
-💡 Destaques Técnicos
-🎨 Repository Pattern
+## 🚀 Como Executar
+
+bash
+# Clone o repositório
+git clone https://github.com/Duartetais/projeto_final_bloco_01.git
+
+# Entre na pasta
+cd projeto_final_bloco_01
+
+# Instale as dependências
+npm install
+
+# Execute (se tiver ts-node configurado)
+npm run dev
+# ou compile e rode:
+tsc && node build/index.js
+
+
+
+💡 **Destaques Técnicos**
+
+🎨 **Repository Pattern**
 Interface define o contrato, Controller implementa a lógica de negócio desacoplada do armazenamento.
-🧬 Herança & Abstração
+
+🧬 **Herança & Abstração**
 Classe abstrata Produto define estrutura comum, ProdutoFisico herda e especializa com propriedades específicas.
-📚 Aprendizados
 
-✅ Aplicação de TypeScript em projeto real
-✅ Design de arquitetura escalável com Repository Pattern
-✅ Modelagem de domínio rico com POO
-✅ Tratamento de exceções e validações de negócio
+📚 **Aprendizados**
 
-🔗 Conecte-se Comigo
+✅ Aplicação de TypeScript em projeto real  
+✅ Design de arquitetura escalável com Repository Pattern  
+✅ Modelagem de domínio rico com POO   
+✅ Tratamento de exceções e validações de negócio    
+
+🔗 **Conecte-se Comigo**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Duartetais)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Duartetais)
